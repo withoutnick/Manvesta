@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ck-editor__editable {
+    min-height: 350px;
+}
+
+.ck-editor h2,
+.ck-editor h3,
+.ck-editor h4 {
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+}
+.ck-editor h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.ck-editor h3 {
+    font-size: 1.5em;
+}
+.ck-editor h4 {
+    font-size: 1.2em;
+}

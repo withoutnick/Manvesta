@@ -1,0 +1,1 @@
+<input @checked($checked) value="1" type="checkbox" {!! $attributes->merge() !!}>
